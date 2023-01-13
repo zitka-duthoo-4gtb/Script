@@ -1,0 +1,51 @@
+
+body{
+    background-color: #444245;
+    color: #ff0000;
+    font-family: monospace;
+    padding: 20px;
+}
+main{
+    background-color: #a8a5a5;
+}
+
+header{
+    background-color: #00000061;
+    background-image: url(images/Eminem.jpg);
+    background-size:100px;
+    background-position: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#merch{
+    background-color: rgb(171, 171, 171);
+}
+
+nav {
+    background-color: #ff0000;
+}
+nav li{
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+section {
+    padding: 10%;
+}
+
+#events li {
+    font-size: 20px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> F1 vragenlijst </title>
+</head>
+<body>
+<header>
+    <h1>Wie is jouw favoriete f1 driver?</h1>
+</header>
+<main>
+    <section id="intro">
+        <h2>De vrijgenlijst vindt je hieronder!</h2>
+        <img src="https://s3-eu-west-1.amazonaws.com/racingnews-v2-prod/_1125x633_crop_center-center_85_none/MP93962.jpg?v=1650107665" alt="Driver Line-up"width="400">
+        <p>Klik hier voor <a href="https://www.formula1.com/">de website van f1</a> </p>
+    </section>
+    <section id="lijstjes">
+        <H2> Wat te vinden in deze applicatie?</H2>
+        <ul>
+            <li>Vragen lijst</li>
+            <li>Op basis van je antwooorden kan je afleiden voor wie je zou moeten supporteren</li>
+            
+        </ul>
+        <h2> Wat als je niet geintereseerd bent in f1</h2>
+        <ol>
+            <li>Sluit deze applicatie vriedelijk af</li>
+            <li>Zoek een andere sport om te volgen</li>
+        </ol>
+     </section>
+     <section id="formulier">
+        <form action="">
+            <fieldset>
+                <legend>wat is jouw naam?</legend>
+                <input type="text" placeholder="Naam">
+            </fieldset>
+            <fieldset>
+                <legend>Wat is jouw leeftijd</legend>
+                <input type="number" name="Leeftijd" min="1" max="120">
+            </fieldset>
+            <fieldset>
+                <legend>Wat is je favoriete kleur</legend>
+                <input type="radio" name="kleur" value="rood">Rood 
+                <input type="radio" name="kleur" value="Blauw">Blauw <input type="radio" name="kleur" value="Grijs/Zwart">Grijs/Zwart 
+                <input type="radio" name="kleur" value="Donker blauw">Donkerblauw
+                <input type="radio" name="Kleur" value="Groen">Groen
+                <input type="radio" name="Kleur" value="Wit">Wit
+            </fieldset>
+            <fieldset>
+                <legend>Heb je een favoriete energie drink?</legend>
+                <input type="checkbox" name="aanwezig" value="Monster">Monster<input type="checkbox" name="aanwezig" value="Red bull">Red bull<input type="checkbox" name="aanwezig" value="Geen">Geen
+            </fieldset>
+            <fieldset>
+                <legend>Heeft u al enige kennis van de Formule 1?</legend>
+                <textarea name="Kennis?"  cols="40" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>waar heeft u Formule 1 leren kennen?</legend>
+                <select name="enquete" i>
+                    <option value="Vrienden/familie">Vrienden/familie</option>
+                    <option value="Video's">Video's</option>
+                    <option value="Door de auto's">Door de auto's</option>
+                    <option value="Andere">Andere</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Wat vondt u van deze vragenlijst?</legend>
+                <textarea name="Wat vondt u ervan?" cols="40" rows="10"></textarea>
+            </fieldset>
+            <button type="submit">Verzenden</button>
+            <button type="reset">Herstellen</button>
+        </form>
+     </section>
+   </main>
+</body>
+</html>
