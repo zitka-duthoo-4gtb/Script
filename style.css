@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(7, 7, 7);
+    color: rgb(255, 0, 0);
+}
+
+#about {
+    display: flex;
+    margin: 4% 0;
+}
+
+.left {
+    flex: 3;
+}
+
+.right {
+    flex: 7;
+}
