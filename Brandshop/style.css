@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(16, 0, 104);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+    
+}
+
+header nav li{
+    display: inline;
+}
+
+header img {
+    width: 122px;
+}
+
+header input {
+    border-radius: 20px;
+    padding: 5px 15px ;
+    width: 120px;
+}
+
+header i {
+    margin-left: 1ch;
+}
+
+header a {
+    padding: 10px;
+    background-color: aliceblue;
+
+}
+
+header a :hover{
+    
+}
