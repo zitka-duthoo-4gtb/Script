@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(18, 0, 99);
     padding: 20px;
 
     
@@ -46,6 +46,7 @@ header a {
 
 }
 
-header a :hover{
-    
+
+video {
+    width: 100%;
 }
