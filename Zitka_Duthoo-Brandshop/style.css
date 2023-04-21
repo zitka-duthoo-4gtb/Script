@@ -6,13 +6,18 @@
 
 body{
     background-color: rgb(16, 0, 104);
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .flex-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
 }
 
 header{
@@ -49,4 +54,12 @@ header a {
 
 video {
     width: 100%;
+}
+
+img{
+    width:100%;
+}
+
+h2{
+    color: rgb(255, 255, 255);
 }
