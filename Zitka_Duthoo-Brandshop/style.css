@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: rgb(18, 0, 99);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 
 
@@ -63,6 +63,7 @@ img {
 h2 {
     color: rgb(200, 255, 0);
     padding: 10px;
+
 }
 
 .flex-item {
@@ -103,7 +104,8 @@ section{
 }
 
 .memberfoto{
-    background-image: url(img/social-og-oracle-red-bull-racing-1200x630.avif);
+    /* background-image: url(img/social-og-oracle-red-bull-racing-1200x630.avif); */
+    background-position: center;
     align-self: stretch;
     background-size: cover;
 }
