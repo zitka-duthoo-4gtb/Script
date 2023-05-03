@@ -4,12 +4,12 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(16, 0, 104);
     color: rgb(255, 255, 255);
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,14 +20,14 @@ body{
     flex: 1;
 }
 
-header{
+header {
     background-color: rgb(18, 0, 99);
     padding: 20px;
 
-    
+
 }
 
-header nav li{
+header nav li {
     display: inline;
 }
 
@@ -37,7 +37,7 @@ header img {
 
 header input {
     border-radius: 20px;
-    padding: 5px 15px ;
+    padding: 5px 15px;
     width: 120px;
 }
 
@@ -56,10 +56,58 @@ video {
     width: 100%;
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
 
-h2{
-    color: rgb(255, 255, 255);
+h2 {
+    color: rgb(200, 255, 0);
+    padding: 10px;
+}
+
+.flex-item {
+    flex: 10%;
+
+}
+
+h3 {
+    padding: 10px;
+
+}
+
+div {
+    padding: 10px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 40%;
+    padding: 7px;
+    background-color: #fff;
+    color:rgb(18, 0, 99)
+}
+
+section{
+    padding: 0 2rem;
+    margin-bottom: 0 4rem;
+}
+
+.highlight{
+    background-color: #ff0000;
+    
+}
+
+.memberfoto{
+    background-image: url(img/social-og-oracle-red-bull-racing-1200x630.avif);
+    align-self: stretch;
+    background-size: cover;
+}
+
+#membership .flex-item{
+    padding: 2rem;
 }
