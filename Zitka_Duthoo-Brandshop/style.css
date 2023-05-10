@@ -113,3 +113,9 @@ section{
 #membership .flex-item{
     padding: 2rem;
 }
+
+button {
+    padding: 1rem;
+    background-color: rgb(0, 0, 100);
+    color: aliceblue;
+}
