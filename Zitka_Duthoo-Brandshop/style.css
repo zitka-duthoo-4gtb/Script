@@ -99,10 +99,11 @@ figcaption {
 section{
     padding: 0 2rem;
     margin-bottom: 0 4rem;
+    font-size: larger;
 }
 
 .highlight{
-    background-color: #ff0000;
+    background-color: rgb(255, 0, 0);
     
 }
 
@@ -121,4 +122,22 @@ button {
     padding: 1rem;
     background-color: rgb(0, 0, 100);
     color: aliceblue;
+}
+
+footer{
+    padding: 3rem;
+    background-color: rgb(177, 177, 177);
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer li:first-child a{
+    font-weight: 900;
+    font-size: 1.2rem;
 }
