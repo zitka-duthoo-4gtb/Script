@@ -141,3 +141,12 @@ footer li:first-child a{
     font-weight: 900;
     font-size: 1.2rem;
 }
+footer i{
+    margin-left: 0.5ch;
+    font-size: x-large;
+    color: black;
+}
+
+footer ul:last-child li:first-child {
+    margin-bottom: 2rem;
+}
