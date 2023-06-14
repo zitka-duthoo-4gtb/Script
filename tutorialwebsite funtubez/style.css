@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: hsl(0, 0%, 02%);
+    --bgc-02: hsl(0, 0%, 08%);
+    --txt-01: hsl(0, 0%, 90%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+header li{
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+img{
+    width: 100%;
+}
