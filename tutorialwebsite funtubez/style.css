@@ -1,9 +1,9 @@
 @import url("https://use.typekit.net/hfi1kak.css");
 
 :root {
-    --bgc-01: hsl(0, 0%, 02%);
-    --bgc-02: hsl(0, 0%, 08%);
-    --txt-01: hsl(0, 0%, 90%);
+    --bgc-01: hsl(0, 55%, 22%);
+    --bgc-02: hsl(0, 0%, 100%);
+    --txt-01: hsl(0, 100%, 39%);
 }
 
 * {
@@ -17,6 +17,7 @@ body {
     color: var(--txt-01);
     font-family: "owners-wide", sans-serif;
     line-height: 1;
+    padding: 2rem;
 }
 
 header{
@@ -29,6 +30,10 @@ header li{
     display: inline;
 }
 
+a{
+    color: blanchedalmond;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -37,4 +42,16 @@ header li{
 
 img{
     width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+footer{
+    background-color: rgb(108, 154, 75);
+    padding: 2rem;
+    color: black;
 }
